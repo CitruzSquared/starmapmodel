@@ -4,12 +4,38 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Map</title>
+    <link href="https://fonts.cdnfonts.com/css/sofia-pro?styles=17630, 17626" rel="stylesheet">
+    <title>Star Map Model</title>
     <style>
         body {
             padding: 0;
             margin: 0;
             overflow-y: hidden;
+
+        }
+
+        div {
+            font-family: 'Sofia Pro', sans-serif;
+        }
+
+        table,
+        td {
+            text-align: center;
+            border: 1px solid white;
+        }
+
+        table {
+            width: 300px;
+        }
+
+        td {
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        td.bold {
+            width: 80px;
         }
     </style>
 </head>
@@ -19,8 +45,8 @@
         <script src="p5.js">
         </script>
         <!-- <script src="../addons/p5.sound.js"></script> -->
-        <script src="sketch.js"></script>
         <script src="starlist.js"></script>
+        <script src="sketch.js"></script>
     </main>
 </body>
 
