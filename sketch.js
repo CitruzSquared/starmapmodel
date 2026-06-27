@@ -91,6 +91,7 @@ function draw() {
     pickBuffer.push();
     pickBuffer.scale(scalefactor, scalefactor, scalefactor);
     pickBuffer.noStroke();
+    pickBuffer.noSmooth();
     pickBuffer.noLights();
     pickBuffer.rotateY(azimuth);
 
