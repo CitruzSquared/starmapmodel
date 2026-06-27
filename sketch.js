@@ -196,6 +196,10 @@ function select_star(star) {
     info += `<tr>
     <td class="bold"> <b> Distance </b> </td>
     <td> ${(sqrt(system[1] * system[1] + system[2] * system[2] + system[3] * system[3]) * 2 / 3).toFixed(2)} ly </td>
+    </tr>
+    <tr>
+    <td class="bold"> <b> Visibility </b> </td>
+    <td> ${system[6]} </td>
     </tr>`;
     info += `</table>`;
     infoBox.html(info);
